@@ -11,3 +11,146 @@ section#main{
     grid-template-columns: 5fr 9fr;
     gap: 45px;
 }
+.titl{
+    background-color: white;
+    height: 50px;
+    text-align: center;
+}
+
+.titlu h1{
+    padding: 10px;
+    font-size: 25px;
+    color: #282727;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.buttons button{
+    cursor: pointer;
+    background-color: #219356;
+    text-align: center;
+    color: rgb(218, 218, 218);
+    padding: 10px;
+    margin-top: 25px;
+    border: 0;
+    font-weight: bold;
+}
+.buttons button:hover{
+    background-color: rgb(255, 255, 255);
+    color: #2f2e2e;
+}
+
+button#active-button{
+    background-color: white;
+    color: #333333;
+}
+.section1 input{
+    width: 410.510px;
+    border: 0;
+    height: 36px;
+    margin-top: 25px;
+}
+.select-grupa{
+    height: 30PX;
+    margin-top: 25px;
+    width: 432.5px;
+    border: 0;
+    font-size: 16px;
+    color: black;
+}
+.select{
+    margin-top: 25px;
+    width: 432.5px;
+    border: 0;
+    font-size: 16px;
+    height: 36px;
+}
+
+.tabel1{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    height: 230px;
+}
+
+.tabel1 div{
+    background-color: white;
+    border: 0.5px solid #33333366;
+    color: white;
+}
+
+div#tabel-data{
+    width: 51PX;
+    height: 27PX;
+    border: 0.5px solid white;
+    background-color: #038e44;
+}
+div#tabel-data:hover{
+    width: 51PX;
+    height: 27PX;
+    border: 0.5px solid white;
+    background-color:#fffcc4;
+    color: black;
+}
+div#tabel-dataZ{
+    width: 64PX;
+    height: 27PX;
+    border: 0.5px solid white;
+    background-color: #029c4a;
+}
+div#tabel-dataZ:hover{
+    width: 64PX;
+    border: 0.5px solid white;
+    background-color:#fffcc4;
+    color: black;
+}
+#lessonA, #lessonW, #lessonP, #lessonPW, #lessonJ, #lessonF, #lessonD, #lessonT, #lessonFL, #lessonZ, #lessonG {
+    text-align: center;
+}
+
+div#lesson{
+    background-color: #068f4680;
+}
+div#lessonA{
+    background-color: rgb(10, 150, 49);
+}
+div#lessonW{
+    background-color: rgb(10, 150, 49);
+}
+div#lessonP{
+    background-color: rgb(107, 71, 100);
+}
+div#lessonPW{
+    background-color: rgb(173, 159, 173);
+}
+div#lessonJ{
+    background-color: rgb(243, 164, 38);
+}
+div#lessonF{
+    background-color: rgb(73, 46, 27);
+}
+div#lessonD{
+    background-color: rgb(10, 150, 49);
+}
+div#lessonT{
+    background-color: rgb(10, 150, 49);
+}
+div#lessonFL{
+    background-color: rgb(88, 65, 88);
+}
+div#lessonPW{
+    background-color: rgb(207, 221, 101);
+}
+div#lessonZ{
+    background-color: rgb(246, 144, 42);
+}
+div#lessonG{
+    background-color: rgb(10, 150, 49);
+}
+.tabel div:hover{
+    border: 2px solid rgb(73, 46, 27);
+}
