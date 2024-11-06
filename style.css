@@ -1,0 +1,13 @@
+body{
+    width: 1250px;
+    margin: 0 auto;
+    background-image:url('background-usarb.png') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+section#main{
+    display: grid;
+    grid-template-columns: 5fr 9fr;
+    gap: 45px;
+}
