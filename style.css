@@ -8,10 +8,10 @@ body{
 }
 section#main{
     display: grid;
-    grid-template-columns: 5fr 9fr;
-    gap: 45px;
+    grid-template-columns: 6fr 10fr;
+    gap: 100px;
 }
-.titl{
+.titlu{
     background-color: white;
     height: 50px;
     text-align: center;
@@ -19,8 +19,9 @@ section#main{
 
 .titlu h1{
     padding: 10px;
-    font-size: 25px;
-    color: #282727;
+    font-size: 19px;
+    color: #5d5959;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .buttons{
     display: grid;
@@ -30,17 +31,17 @@ section#main{
 
 .buttons button{
     cursor: pointer;
-    background-color: #219356;
+    background-color: #25975A;
     text-align: center;
-    color: rgb(218, 218, 218);
+    color: white;
     padding: 10px;
     margin-top: 25px;
     border: 0;
     font-weight: bold;
 }
 .buttons button:hover{
-    background-color: rgb(255, 255, 255);
-    color: #2f2e2e;
+    background-color: white;
+    color: #333333;
 }
 
 button#active-button{
@@ -48,11 +49,13 @@ button#active-button{
     color: #333333;
 }
 .section1 input{
-    width: 410.510px;
+    width: 428.567px;
     border: 0;
     height: 36px;
     margin-top: 25px;
 }
+
+
 .select-grupa{
     height: 30PX;
     margin-top: 25px;
@@ -113,10 +116,10 @@ div#tabel-dataZ:hover{
 }
 
 div#lesson{
-    background-color: #068f4680;
+    background-color: #3adf4bf8;
 }
 div#lessonA{
-    background-color: rgb(10, 150, 49);
+    background-color: #3adf4bf8;
 }
 div#lessonW{
     background-color: rgb(10, 150, 49);
@@ -134,16 +137,16 @@ div#lessonF{
     background-color: rgb(73, 46, 27);
 }
 div#lessonD{
-    background-color: rgb(10, 150, 49);
+    background-color: rgb(255, 245, 98);
 }
 div#lessonT{
-    background-color: rgb(10, 150, 49);
+    background-color: rgb(255, 245, 98);
 }
 div#lessonFL{
     background-color: rgb(88, 65, 88);
 }
 div#lessonPW{
-    background-color: rgb(207, 221, 101);
+    background-color: rgb(176, 158, 177);
 }
 div#lessonZ{
     background-color: rgb(246, 144, 42);
@@ -153,4 +156,132 @@ div#lessonG{
 }
 .tabel div:hover{
     border: 2px solid rgb(73, 46, 27);
+}
+.buttons-JOS{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.Orar{
+    width: 100px;
+    height: 22px ;
+    color: white;
+    border-color: antiquewhite;
+    background-color: rgb(71, 197, 109);
+}
+.Examene{
+    width: 100px;
+    height: 22px ;
+    color: white;
+    border-color: antiquewhite;
+   background-color: rgb(228, 116, 116);
+}
+.Planificare{
+    width: 100px;
+    height: 22px ;
+    color: white;
+    border-color: antiquewhite;
+    background-color: rgb(114, 76, 114);
+}
+.h1S{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 350px;
+    height: 35px;
+    background-color: rgb(240, 255, 250);
+    font-size: 13px;
+    color: #57cd8e;
+    text-align:left;
+    align-content: center;
+}
+.h1S h1{
+    margin-top: 4px;
+    font-family:'Times New Roman', Times, serif;
+}
+.tabel2{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 13px;
+    
+}
+.tabel3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 13px;
+
+}
+.tabel4{
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-around;
+    color: white;
+    font-size: 13px;
+
+}
+.section2{
+    text-align: center;
+    
+}
+
+.section2 img{
+    text-align: center;
+    width: 150px;
+    height: 100px;
+}
+
+.section2 h4{
+    font-size: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+}
+
+.ls-rows{
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+    min-height: 50px;
+    background-color: white;
+    color: #333333d0;
+    border: 0.5px solid #33333366;
+}
+
+.ls-rows:hover{
+    background-color: #fffcc4;
+    color: black;   
+}
+
+.ls-column1{
+    color: white;
+    background-color: #25975A;
+    border: 0.5px solid white;
+    border-right: 0;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+.ls-column1:hover{
+    color: black;
+    background-color: #fffcc4;
+    border: 0.5px solid white;
+    border-right: 0;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+.ls-column2 {
+    border-left: 0;
+}
+
+.ls-column2 p{
+    margin: 5px;
+}
+.ls-columns:hover{
+    background-color: #fffcc4;
+    color: black;   
 }
